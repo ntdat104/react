@@ -33,14 +33,10 @@ class Lession4 extends Component {
     renderForm(){
         return (
             <div>
-                <input ref={(data) => this.getData(data)} defaultValue={this.state.title} type="text"/>
+                <input ref={(data) => this.temp = data} defaultValue={this.state.title} type="text"/>
                 <button onClick={() => this.saveClick()}>Save</button>
             </div>
         )
-    }
-
-    getData(data){
-        this.temp = data
     }
 
     saveClick(){
