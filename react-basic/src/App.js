@@ -1,3 +1,6 @@
+//TODO npm install -g create-react-app
+//TODO npx create-react-app my-app
+
 import React, { Component } from 'react';
 import Lession5 from "./Lession/Lession5";
 
